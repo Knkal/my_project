@@ -1,7 +1,7 @@
 # 대시보드 홈페이지
 # 1. 모듈 가져오기
 from fastapi import FastAPI, Request
-# 백엔드 서버 구성시 템플릿 엔진 사용 => 서버측에서 동적으로 html을 생성 응답 =? SSR (Server Side Rendering)
+# 백엔드 서버 구성시 템플릿 엔진 사용 => 서버측에서 동적으로 html을 생성 응답 => SSR (Server Side Rendering)
 # 파이썬 계열 주로 사용되는 템플릿 엔진 jinja2 <= 웹, LLM 프럼프트 구성시 => AI
 # html 관여
 from fastapi.templating import Jinja2Templates
